@@ -9,23 +9,37 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body onload="startTime()">
   <div class="container">
     <div id="background"></div>
     <div class="phone">
       <img class="bg-img" src="back.jpg">
       <div class="app-space">
+        <div id="txt"></div>
+        <div id="txt2"></div>
         <div class="name">
-        <a href="https://manas311.github.io/music/"><img src="icons/music.png" class="icon left"></a>
-        <div class="overlay">Music</div>
+          <a href="https://manas311.github.io/music/"><img src="icons/music.png" class="icon top left"></a>
+          <div class="overlay">Music</div>
         </div>
         <div class="name">
-        <a href="https://manas311.github.io/calculator/"><img src="icons/calculator.jpg" class="icon middle"> </a>
-        <div class="overlay">Calculator</div>
+          <a href="https://manas311.github.io/calculator/"><img src="icons/calculator.jpg" class="icon top middle"> </a>
+          <div class="overlay">Calculator</div>
         </div>
         <div class="name">
-        <a href="https://manas311.github.io/simongame/"><img src="icons/simon.jpg" class="icon right"> </a>
-        <div class="overlay">Game</div>
+          <a href="https://manas311.github.io/simongame/"><img src="icons/simon.jpg" class="icon top right"> </a>
+          <div class="overlay">Simon Game</div>
+        </div>
+        <div class="name">
+          <a href="https://manas311.github.io/notes/"><img src="icons/notes.jfif" class="icon bottom left"> </a>
+          <div class="overlay">Notes App</div>
+        </div>
+        <div class="name">
+          <a href="https://manas311.github.io/camera/"><img src="icons/camera.jpg" class="icon bottom middle"> </a>
+          <div class="overlay">Camera</div>
+        </div>
+        <div class="name">
+          <a href="https://manas311.github.io/google/"><img src="icons/google.png" class="icon bottom right"> </a>
+          <div class="overlay">Google Search</div>
         </div>
       </div>
     </div>
@@ -35,8 +49,8 @@
   </div>
 
   </div>
+  <script src="script.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
-
 </body>
 
 </html>
